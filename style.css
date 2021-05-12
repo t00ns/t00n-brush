@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "HK Grotesk";
+    src: url(HKGrotesk-Regular.woff), url(HKGrotesk-Regular.woff2);
+  }
+
+body {
+    background-image: url(background.jpg);
+    color: #fff;
+    cursor: crosshair;
+    overflow: hidden;
+}
+
+canvas {
+    vertical-align: bottom;
+}
+
+.refresh-button {
+    position: fixed;
+    bottom: 36px;
+    right: 36px;
+    cursor: crosshair;
+
+    font-family: "HK Grotesk";
+    font-size: 18px;
+
+    padding: 5px 15px;
+    background-color: #F6EFEF;
+    color: #2D3932;
+    border: #2D3932 solid 2px;
+    border-radius: 5px;
+    box-shadow: 3px 7px 0px #2D3932;
+}
